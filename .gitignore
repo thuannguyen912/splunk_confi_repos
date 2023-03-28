@@ -1,0 +1,27 @@
+### exclude ###
+
+# key files and hashes #
+/opt/splunk/etc/passwd
+/opt/splunk/etc/auth/
+
+# default apps #
+/opt/splunk/etc/apps/search/*
+/opt/splunk/etc/apps/sample_app/
+/opt/splunk/etc/apps/launcher/
+/opt/splunk/etc/apps/gettingstarted/
+/opt/splunk/etc/apps/introspection_generator_addon/
+/opt/splunk/etc/apps/framework
+/opt/splunk/etc/apps/SplunkLightForwarder/
+/opt/splunk/etc/apps/splunk-sdk-python-master/
+
+# large lookup files #
+/opt/splunk/etc/apps/sos/lookups/
+/opt/splunk/etc/apps/secint/lookups/
+
+# internals
+/opt/splunk/etc/modules/
+/opt/splunk/etc/anonymizer/
+/opt/splunk/etc/myinstall/
+/opt/splunk/etc/init.d/
+/opt/splunk/etc/openldap/
+/opt/splunk/etc/.?*
